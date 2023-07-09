@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    flex-basis: 70px;
+}
+
+input{
+  margin-left: 10px;
+}
+.form-group{
+    display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ul{
+    margin-left: 2.3rem;
+    list-style-type: circle;
+}
+li{
+    margin-left: 1rem;
+}
