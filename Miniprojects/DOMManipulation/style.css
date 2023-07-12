@@ -10,14 +10,14 @@
     height: 100vh;
 }
 
-.square{
+#squarebox{
     height: 300px;
     width: 300px;
     background-color: red;
 }
 
 .squareAfter{
-    height: 600px;
-    width: 600px;
-    background-color: yellow;
+    height: 600px !important;
+    width: 600px !important;
+    background-color: yellow !important;
 }

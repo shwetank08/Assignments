@@ -1,6 +1,5 @@
-let square = document.getElementsById('squarebox');
+const square = document.getElementById("squarebox");
 
-square.addEventListener("click",function() { 
-    square.classList.remove("square");
-    square.classList.add("squareAfter");
+square.addEventListener("click",function() {
+    square.classList.toggle("squareAfter");
 });
